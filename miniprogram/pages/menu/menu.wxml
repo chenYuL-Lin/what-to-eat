@@ -1,0 +1,27 @@
+<!--页面根标签-->
+<view class="content">
+    <!--pics文件夹下的background.jpg文件-->
+    <image class='background' src="../../image/background.jpg" mode="aspectFill"></image>
+    <!--页面其它部分-->
+
+<view class="ttl">详情请关注沙邮餐饮公众号</view>
+<view class="ttl">周一至周五每日推送尽在其间</view>
+<view class="ttl">
+<image src="../../image/123.jpg" class="llw"></image>
+</view>
+
+
+<view class="ewm">
+<image  src="../../image/erweima.jpg"></image>
+</view>
+<!-- <image src="../../image/学生/2.jpg"></image>
+<image src="../../image/学生/3.jpg"></image>
+<image src="../../image/学生/4.jpg"></image>
+<image src="../../image/学生/5.jpg"></image>
+<image src="../../image/学生/6.jpg"></image>
+<image src="../../image/教工/1.png"></image>
+<image src="../../image/教工/2.jpg"></image>
+<image src="../../image/教工/3.jpg"></image>
+<image src="../../image/教工/4.jpg"></image>
+<image src="../../image/教工/5.jpg"></image> -->
+</view>

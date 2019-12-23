@@ -1,0 +1,47 @@
+{
+  "pages": [
+        "pages/food/food",
+        
+    "pages/choice/choice",
+   
+    "pages/collect/collect",
+    "pages/choose/choose",
+    "pages/menu/menu",
+    "pages/random/random"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#BDBDBD",
+    "navigationBarTitleText": "今天该吃什么呢",
+    "navigationBarTextStyle": "white"
+  },
+
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/1.png",
+        "iconPath": "image/1.png",
+        "pagePath": "pages/choice/choice",
+        "text": "筛选"
+      },
+      {
+        "selectedIconPath": "image/4.png",
+        "iconPath": "image/3.png",
+        "pagePath": "pages/food/food",
+        "text": "随机"
+      },
+      {
+        "selectedIconPath": "image/6.png",
+        "iconPath": "image/5.png",
+        "pagePath": "pages/menu/menu",
+        "text": "菜单"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

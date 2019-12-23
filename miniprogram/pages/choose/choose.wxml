@@ -1,0 +1,12 @@
+<!--页面根标签-->
+<view class="content">
+    <!--pics文件夹下的background.jpg文件-->
+    <image class='background' src="../../image/background.jpg" mode="aspectFill"></image>
+    <!--页面其它部分-->
+    
+  <button size="mini" type="default" bindtap="onQuery" class="dw">点我有惊喜！！！</button>
+
+<text class="code" wx:if="{{query}}">{{query}}</text>
+
+</view>
+

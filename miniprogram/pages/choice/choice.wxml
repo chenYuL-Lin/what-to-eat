@@ -1,0 +1,108 @@
+
+<!--页面根标签-->
+<view class="content">
+    <!--pics文件夹下的background.jpg文件-->
+    <image class='background' src="../../image/background.jpg" mode="aspectFill"></image>
+    <!--页面其它部分-->
+    <text>{{queryResult}}</text>
+<!-- 提示栏 -->
+<view class="results">{{results}}</view>
+<!-- <form>
+<!-- 筛选表单form开始!!! -->
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+<!-- 楼层选择，可多选 -->
+ <view class="floor section_gap">
+    <view class="floor__title">楼层</view>
+    <radio-group name="student">
+      <view class="stu">
+      <label><radio value="s1"/>学一</label>
+      <label><radio value="s2"/>学二</label>
+      <label><radio value="s3"/>学三</label>
+      <label><radio value="s4"/>学四</label>
+      <label><radio value="s5"/>学五</label>
+      </view>
+      <view class="tea">
+      <label><radio value="t1"/>教一</label>
+      <label><radio value="t2"/>教二</label>
+      <label><radio value="t3"/>教三</label>
+      <label><radio value="t4"/>教四</label>
+      <label><radio value="t5"/>教五</label></view>
+    </radio-group>
+  </view>
+<!-- 楼层选择结束 -->
+
+<!-- 价格区间选择，多选 -->
+<view class="price">
+<view class="price__title">价格区间</view>
+ <radio-group name="concrete_price">
+      <view class="pp">
+      <label><radio value="p1"/>10元以下</label></view>
+      <view class="pp">
+      <label><radio value="p2"/>10到15元</label></view>
+      <view class="pp">
+      <label><radio value="p3"/>15元到20元</label></view>
+      <view class="pp">
+      <label><radio value="p4"/>20元以上</label></view>
+    </radio-group>
+    
+</view>
+<!-- 价格区间选项结束 -->
+
+<!--菜品种类，多选选项  -->
+<view class="dishes">
+<view class="dishes__title">菜品种类</view>
+ <radio-group name="concrete_dishes">
+      <view class="dd">
+      <label><radio value="d1"/>饭</label></view>
+      <view class="dd">
+      <label><radio value="d2"/>粉</label></view>
+      <view class="dd">
+      <label><radio value="d3"/>干锅</label></view>
+      <view class="dd">
+      <label><radio value="d4"/>黄焖</label></view>
+       <view class="dd">
+      <label><radio value="d5"/>闷锅</label></view>
+       <view class="dd">
+      <label><radio value="d6"/>米线</label></view>
+       <view class="dd">
+      <label><radio value="d7"/>面</label></view>
+       <view class="dd">
+      <label><radio value="d8"/>牛排</label></view>
+       <view class="dd">
+      <label><radio value="d9"/>其他</label></view>
+       <view class="dd">
+      <label><radio value="d10"/>寿司</label></view>
+       <view class="dd">
+      <label><radio value="d11"/>水饺</label></view>
+       <view class="dd">
+      <label><radio value="d12"/>水煮</label></view>
+       <view class="dd">
+      <label><radio value="d13"/>汤</label></view>
+       <view class="dd">
+      <label><radio value="d14"/>铁板</label></view>
+       <view class="dd">
+      <label><radio value="d15"/>虾滑</label></view>
+    </radio-group>
+</view>
+<!-- 选择菜品的选项结束 -->
+
+<!-- <view>
+ <button bindtap="submit">Submit</button>
+ <button bindtap="reset">Reset</button>
+</view> -->
+  <view class="btn-area">
+    <button class='goodbutton'  hover-class="hover" formType="submit">Submit</button>
+    <button class='goodbutton'  hover-class="hover" formType="reset">Reset</button>
+  </view>
+ </form> 
+<!-- 提交筛选选项的表单结束 -->
+<!-- </form> -->
+
+<view class="dish">{{result1}}</view>
+<view class="dish">{{result2}}</view>
+<view class="dish">{{result3}}</view>
+<view class="dish">{{result4}}</view>
+<view class="dish">{{result5}}</view>
+
+</view>
