@@ -29,7 +29,8 @@ Page({
 
 
   dalaoJoin:function(){
-  var x = Math.floor(Math.random() * 250)
+  var y = Math.floor(Math.random() * 546)
+  var x=y.toString();
   var that=this
     app.globalData.getnum=x
     console.log(app.globalData.getnum)
@@ -46,7 +47,7 @@ Page({
       complete: res => {
         console.log("***foodeeee");
         that.setData({
-          query2: JSON.stringify(res.result.data, ['others'], '\n'),
+          query2: JSON.stringify(res.result.data, ['others']),
         })
         var _query = this.data.query2
         console.log('[数据库] [查询记录] 成功: ', res)
